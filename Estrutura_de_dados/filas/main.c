@@ -13,13 +13,13 @@ int main() {
     Item* D = criarItem(20);
     Item* E = criarItem(45);
 
-    Enfilar(Normal, A);
-    Enfilar(Normal, B);
-    Enfilar(Normal, C);
-    Enfilar(Normal, D);
-    Enfilar(Normal, E);
+    enfileirar(Normal, A);
+    enfileirar(Normal, B);
+    enfileirar(Normal, C);
+    enfileirar(Normal, D);
+    enfileirar(Normal, E);
 
-    enfilaer(Normal, criarItem(77));
+    enfileirar(Normal, criarItem(77));
 
     printf("%d", Normal->tamanho);
 
